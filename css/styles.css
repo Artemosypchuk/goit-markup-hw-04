@@ -62,7 +62,7 @@ header a, footer a{
 ul{
     list-style: none;
 }
-address a{
+.contacts a{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -70,8 +70,8 @@ address a{
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-address a:hover,
-address a:focus{
+.contacts a:hover,
+.contacts a:focus{
     color: #404BBF;
 }
 
@@ -80,7 +80,7 @@ address a:focus{
 }
 .solution{
     background-color: #2E2F42;
-    color: white;
+    color: #F4F4FD;
 }
 .solution h1{
     text-align: center;

@@ -26,7 +26,7 @@ a{
 
 }
 /* Навігаційні посилання */
-.nav-link a {
+.nav-link-item-a{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -44,14 +44,14 @@ a{
 h1{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.2;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
 }
 h2{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
@@ -59,36 +59,36 @@ h2{
 h3{
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.nav-link a:hover,
-.nav-link a:focus {
+.nav-link-item-a:hover,
+.nav-link-item-a:focus {
   color: #404BBF; /* Ocean */
 }
 ul{
     list-style: none;
 }
-.contacts a{
+.contacts-item-a{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #434455;
 }
-.contacts a:hover,
-.contacts a:focus{
+.contacts-item-a:hover,
+.contacts-item-a:focus{
     color: #404BBF;
 }
 
 .solution{
     background-color: #2E2F42;
-    color: #F4F4FD;
 }
-.solution h1{
+.solution-text{
     text-align: center;
+    color: #FFFFFF;
 
 }
 .hero-btn {
@@ -109,12 +109,12 @@ ul{
 
     text-align: center;
 }
-.team ul li{
+.team-item{
     background-color: #ffffff;
     margin: 20px 20px;
 }
 
-footer, footer a{
+footer, .logo{
     background-color: #2E2F42;
     color: #F4F4FD;
 

@@ -3,6 +3,11 @@ body {
   color: #434455; /* Slate - основний текст */
   background-color: #FFFFFF;
 }
+.container{
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 a{
     text-decoration: none;
     cursor: pointer;
@@ -24,9 +29,18 @@ a{
     line-height: 1.17;
     letter-spacing: 0.03em; 
     font-size: 18px;
-
+    align-self: center;
+}
+.nav-link-item-a, .contacts-item-a{
+      margin-left: 40px;
 }
 /* Навігаційні посилання */
+
+.nav-link>ul,.main-header,.contacts>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .nav-link-item-a{
   font-weight: 500;
   font-size: 16px;
@@ -41,6 +55,7 @@ a{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 h1{
     font-weight: 700;
@@ -56,6 +71,7 @@ h2{
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    
 }
 h3{
     font-weight: 500;
@@ -86,11 +102,16 @@ ul{
 
 .solution{
     background-color: #2E2F42;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-bottom: 191px;
 }
 .solution-text{
     text-align: center;
     color: #FFFFFF;
-
+    padding: 188px 0;
+    width: 496px;
 }
 .hero-btn {
   background-color: #4D5AE5;
@@ -101,6 +122,9 @@ ul{
   letter-spacing: 0.04em;
   color: #FFFFFF;
   cursor: pointer;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
 }
 .hero-btn:hover, .hero-btn:focus{
     background-color: #404BBF;
@@ -112,11 +136,80 @@ ul{
 }
 .team-item{
     background-color: #ffffff;
-    margin: 20px 20px;
 }
 
-footer, .logo{
+footer, .footer-logo{
     background-color: #2E2F42;
     color: #F4F4FD;
 
 }
+footer{
+    padding: 100px 0;
+}
+/* #region Features */
+.features>h2{
+    display: none;
+}
+.features-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 117px 0 120px 0;
+    flex-wrap: wrap;
+}
+.features-item{
+
+}
+.features-title{
+
+}
+.features-text{
+    width: 264px;
+}
+/* #endregion */
+/* #region Team */
+.team{
+
+}
+.team-top{
+    padding-top: 120px;
+
+}
+.team-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 120px;
+    flex-wrap: wrap;
+
+}
+.team-item{
+    border-radius: 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.8);
+}
+/* #endregion */
+/* #region Portfolio */
+.portfolio{
+    padding: 120px 0;
+}
+.portfolio-title{
+    padding-bottom: 72px;
+}
+.portfolio-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.portfolio-name,.portfolio-text{
+
+}
+.portfolio-item{
+    border-left: solid 1px #E0E0E0;
+    border-right: solid 1px #E0E0E0;
+    border-bottom: solid 1px #E0E0E0;
+}
+.portfolio-item>img{
+    border:solid 1px #ffffff;
+}
+/* #endregion */

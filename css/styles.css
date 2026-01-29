@@ -12,13 +12,12 @@ body {
 }
 
 
-.social {
+.social-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
   padding-bottom: 32px;
-
 }
 .social-link {
   display: flex;
@@ -334,6 +333,11 @@ body {
 }
 .social-footer{
   justify-content: flex-start;
+}
+.social.social-footer .social-list {
+  display: flex;
+  gap: 16px;
+  padding-top: 16px;
 }
 .social-footer .social-link:hover, .social-footer .social-link:focus{
   background-color: #31D0AA;
